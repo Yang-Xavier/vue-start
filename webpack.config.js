@@ -24,7 +24,6 @@ module.exports = {
       extensions:[' ','.js','.vue']
     },
     module: {
-
         loaders: [
             // 使用vue-loader 加载 .vue 结尾的文件
             {

@@ -28,9 +28,9 @@ compiler.plugin('compilation',function(compilation){
     })
 })
 
-app.use(devMiddleware)
+app.use(devMiddleware);
 
-app.use(hotMiddleware)
+app.use(hotMiddleware);
 
 app.listen(8081,function(err){
     if(err){
